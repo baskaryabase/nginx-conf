@@ -1,12 +1,16 @@
+# ssl temination
+- clone repository
+- run certbot
+- create certificate
 
-##**//cerbot repo link for creating ssl certiicate//**
+## cerbot repo link for creating ssl certiicate
 `sudo git clone https://github.com/certbot/certbot`
 
-##**//run certbot//**
+## run certbot
 `cd certbot`
 `./certbot-auto -h`
 
-###**//create certificate//**
+### create certificate
 `cd /opt/certbot`
 
 `sudo ./certbot-auto certonly --webroot -w /var/www/html \
