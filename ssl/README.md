@@ -1,7 +1,7 @@
 # ssl temination
-- [clone repository]()
-- [run certbot]()
-- [create certificate]()
+- clone repository
+- run certbot
+- create certificate
 
 ## cerbot repo link for creating ssl certiicate
 `sudo git clone https://github.com/certbot/certbot`
